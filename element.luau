@@ -35,9 +35,6 @@ local getElementByTag: AT.combined = function(tag)
 end
 
 module.getElementByTag = getElementByTag;
---function module.getElementByTag(tag: string)
-	
---end
 
 function module.eachElementByTag(tag: string, cb: (elem: Instance) -> ())
 	for _, v in cs:GetTagged(tag) do
